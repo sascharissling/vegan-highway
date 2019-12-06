@@ -35,17 +35,18 @@ const SearchInput = styled.input`
   background: #ffe;
 `;
 
-const BeforeButton = styled(NavigateBeforeIcon)`
+const BeforeButton = styled.button`
   background: #ffe;
   border-radius: 50%;
   font-family: "Source Sans Pro";
   font-weight: bold;
   box-shadow: 2px 11px 22px -6px rgba(0, 0, 0, 0.54);
-  font-size: 20px;
-  width: 25px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
   color: #0000ff;
   cursor: pointer;
   &:hover {
@@ -59,7 +60,9 @@ export default function Header() {
   return (
     <>
       <SearchBar>
-        <BeforeButton />
+        <BeforeButton>
+          <NavigateBeforeIcon />
+        </BeforeButton>
         <SearchForm>
           <SearchInput autoFocus placeholder="Search" />
         </SearchForm>

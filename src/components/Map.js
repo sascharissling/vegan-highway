@@ -13,6 +13,8 @@ mapboxgl.accessToken =
   "pk.eyJ1Ijoic2FzY2hhdmlubyIsImEiOiJjazNlb3ptbHUwMGp4M2NuY3E1enZjdHRpIn0._reXeyirR5zZK8eUua8erQ";
 
 export default function Map() {
+  // navigator.geolocation.getCurrentPosition();
+
   const [lng, setLng] = React.useState(6.960279);
   const [lat, setLat] = React.useState(50.937531);
   const [zoom, setZoom] = React.useState(11);
