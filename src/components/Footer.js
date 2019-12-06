@@ -13,7 +13,7 @@ const BottomBar = styled.div`
   bottom: 40px;
   width: 80vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 const MenuButton = styled.button`
