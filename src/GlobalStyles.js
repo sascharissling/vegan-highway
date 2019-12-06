@@ -12,8 +12,8 @@ export default function GlobalStyles() {
 
         body {
           margin: 0;
-          font-family: "Roboto Slab", serif;
-          background: linear-gradient(to right, #dd3e54, #6be585);
+          font-family: "Source Sans Pro";
+          background: #0000ff;
         }
       `}
     />
