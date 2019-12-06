@@ -5,8 +5,8 @@ import mapboxgl from "mapbox-gl";
 const MapContainer = styled.div`
   width: 100%;
   height: 100%;
-  flex-basis: 0;
   flex-grow: 1;
+  z-index: 1;
 `;
 
 mapboxgl.accessToken =
