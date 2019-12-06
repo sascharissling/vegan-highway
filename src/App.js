@@ -21,7 +21,6 @@ function App() {
   return (
     <AppContainer>
       <GlobalStyles />
-      <h1>Hi!</h1>
       <Map />
     </AppContainer>
   );
